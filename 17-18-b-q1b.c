@@ -18,7 +18,7 @@ void* find_max(void** array, int size, void*(*max)(void*, void*)) {
 int main() {
     long array[] = {1,4,7,3,9,3,3,8,6};
 
-    printf("The biggest element is: %d\n", (int)find_max((void **) array, sizeof(array) / sizeof(*array), max));
+    printf("The biggest element is: %ld\n", (long)find_max((void **) array, sizeof(array) / sizeof(*array), max));
 
     return 0;
 }
