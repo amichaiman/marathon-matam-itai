@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#define BITS_IN_BYTE 8
-
 void wc(char *filename) {
     FILE *fp = fopen(filename, "r");
     if (fp == NULL) {
